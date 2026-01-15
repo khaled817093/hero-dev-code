@@ -12,6 +12,9 @@
     font-optical-sizing: auto;
 
 }
+/* #in-about .about{
+    background-color: #FFF8F3;
+} */
 .logo-i{
     color: #FD6E0A;
 }
@@ -33,6 +36,10 @@ nav .main a{
     text-decoration: none;
     
 }
+nav .main ul li {
+    cursor: pointer;
+
+}
 .btn{
     border: none;
     background-color: #FD6E0A;
@@ -41,9 +48,13 @@ nav .main a{
     font-weight: bold;
     font-size: 20px;
     color: white;
+    cursor: pointer;
 }
 header{
     background-color: #FFF8F3;
+    background: url(../images/developer.png) ,url(../images/header_bg.png),#FFF8F3 ;
+    background-position: 38px 23px, bottom right;
+    background-repeat: no-repeat;
     padding-top:40px;
 }
 nav{
@@ -54,4 +65,321 @@ nav{
     justify-content: space-between;
     /* align-items: center; */
     margin: auto;
+}
+#benar{
+    /* border: 1px solid red; */
+    margin: 47px 38px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#benar .banar-contend h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+#benar .banar-contend h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+
+}
+nav div img{
+    max-width: 558px;
+    vertical-align: middle;
+    
+    
+}
+
+#benar .banar-contend{
+    width: 585px;
+}
+#benar .banar-contend h1 p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin: 30px;
+
+}
+#in-about .about{
+    margin-top: 130px;
+
+    width: 71%;
+    max-width: 1140px;
+
+    /* height: 550px; */
+
+}
+.about{
+    margin: 0 auto;
+    text-align: center;
+    /* border: 1px solid #ccc; */
+    padding: 131px 156px;
+    background-color: #FFF8F3;
+
+
+}
+.about1 h2{
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: bold;
+
+    
+}
+.about1 p{
+    width: 827px;
+    color: #757575;
+}
+
+.abuot-info-1{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.abuot-info p{
+    color: #757575;
+}
+
+/* .about1{
+    max-width: 947px;
+    text-align: center;
+
+} 
+.about1 h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+} */
+
+
+
+
+/* .about {
+    padding-top: 94px;
+    text-align: center;
+    
+
+
+} */
+
+/* .about .about1 h2{
+    padding-bottom: 30px;
+    font-size: 35;
+    font-weight: bold;
+    
+    
+} */
+/* #in-about .about {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+    gap: 15px;
+    border: 20px solid brown;
+
+
+
+    
+}
+.abuot-info-1{
+    display: flex;
+} */
+
+
+/* .about .about1 .about-info-1{
+    background-color: #FFF8F3;
+
+} */
+/* .about .about1 .about-info-1 .about-info{
+    display: flex;
+} */
+
+#sikll .sikll1{
+   margin-top: 130px;
+   /* text-align: center; */
+}
+#sikll .sikills h2{
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+
+    
+}
+.sikills p{
+    width: 827px;
+    color: #757575;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.sikll-content { 
+
+    margin-top: 50px;
+    display: flex;
+    max-width: 1140px;
+    gap: 24px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#sikll .sikll-content .sikll-card{
+    max-width: 267px;
+    /* border: 1px solid #ccc; */
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(30, 30, 30, 0.1);
+    margin: 0 auto;
+    text-align: center;
+
+}
+.sikll-content .sikll-card img{
+    width: 44px;
+    margin-bottom: 30px;
+}
+.sikll-content .sikll-card h3{
+    margin-bottom: 20px;
+}
+#sikll .sikll-content .sikll-card{
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.sikll-card p{
+    color: #757575;
+}
+/* #my-rename {
+    margin-top: 130px;
+    text-align: center;
+}
+#my-rename .rename-content{
+    margin-top: 113px;
+    display: flex;
+    flex-wrap: nowrap 2;
+    width: 51%;
+    max-width: 1140px;
+    margin: 130px auto 0;
+    gap: 60px;
+}
+#my-rename .rename-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rename-content-list h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    
+}
+.rename-content-list h3{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+    
+}
+.rename-content-list h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #757575;
+    margin-bottom: 20px;
+    
+} */
+
+#my-rename .rename{
+    margin-top: 130px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+#my-rename .rename-content{
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    display: flex;
+    gap: 71px;
+    /* justify-content: space-around; */
+}
+.edu{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.card-titel{
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.card-1{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: semi-bold;
+    color: #757575;
+}
+.card-2{
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: regular;
+    color: #757575;
+}
+hr{
+    margin-bottom: 30px;
+    font-size: 1px;
+    font-weight: center;
+}
+.botom {
+    text-align: center;
+}
+footer {
+    margin-top: 113px;
+    background-color: #FFF8F3;
+    padding: 130px;
+
+    
+
+}
+footer .footer-content{
+    width: 71%;
+    max-width: 1600px;
+    display: flex;
+    margin: 0 auto;
+    gap: 117px;
+    
+}
+.footer-section h2{
+    margin-bottom: 20px;
+    font-size: 27px;
+
+}
+.footer-section p{
+    width: 562px;
+    line-height: 28px;
+    color: #474747;
+    margin-bottom: 30px;
+
+}
+.footer-content .icon a{
+    margin-right: 20px;
+}
+.form h2{
+    font-size: 27px;
+    margin-bottom: 28px;
+
+
+}
+.footer-content form input[type="text"], .footer-content form input textarea{
+    width: 461px;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    line-height: 28px;
+    border: none;
+    border-radius: 5px;
+    color: #474747;
+
 }
